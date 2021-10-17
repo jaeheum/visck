@@ -26,3 +26,4 @@ require('plugins/shortcuts')
 - overrides `C-k` shortcut of vis-diagraph (set `lua/plugins/digraph.lua`)
 - does not match vis-digraph(1) exit status
 - location of data file (`keyboard`) is hardcoded to `~/.config/vis/plugins`  
+- off-by-one $NF in keyboard not corrected
